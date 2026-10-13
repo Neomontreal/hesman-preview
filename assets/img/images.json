@@ -1,0 +1,110 @@
+{
+  "autoroute": {
+    "base": "assets/img/autoroute",
+    "widths": [
+      640,
+      960,
+      1280,
+      1536
+    ],
+    "w": 1536,
+    "h": 922,
+    "alt": ""
+  },
+  "chauffeur": {
+    "base": "assets/img/chauffeur",
+    "widths": [
+      360
+    ],
+    "w": 360,
+    "h": 460,
+    "alt": ""
+  },
+  "cour": {
+    "base": "assets/img/cour",
+    "widths": [
+      360
+    ],
+    "w": 360,
+    "h": 460,
+    "alt": ""
+  },
+  "crepuscule": {
+    "base": "assets/img/crepuscule",
+    "widths": [
+      640
+    ],
+    "w": 640,
+    "h": 480,
+    "alt": ""
+  },
+  "equipe-1": {
+    "base": "assets/img/equipe-1",
+    "widths": [
+      640
+    ],
+    "w": 640,
+    "h": 640,
+    "alt": ""
+  },
+  "equipe-2": {
+    "base": "assets/img/equipe-2",
+    "widths": [
+      640
+    ],
+    "w": 640,
+    "h": 640,
+    "alt": ""
+  },
+  "equipe-3": {
+    "base": "assets/img/equipe-3",
+    "widths": [
+      640
+    ],
+    "w": 640,
+    "h": 640,
+    "alt": ""
+  },
+  "equipe-4": {
+    "base": "assets/img/equipe-4",
+    "widths": [
+      640
+    ],
+    "w": 640,
+    "h": 640,
+    "alt": ""
+  },
+  "mecanique": {
+    "base": "assets/img/mecanique",
+    "widths": [
+      640
+    ],
+    "w": 640,
+    "h": 640,
+    "alt": ""
+  },
+  "remorque": {
+    "base": "assets/img/remorque",
+    "widths": [
+      640,
+      960,
+      1280,
+      1536
+    ],
+    "w": 1536,
+    "h": 1152,
+    "alt": ""
+  },
+  "route": {
+    "base": "assets/img/route",
+    "widths": [
+      640,
+      960,
+      1280,
+      1536
+    ],
+    "w": 1536,
+    "h": 1025,
+    "alt": ""
+  }
+}
