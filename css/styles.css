@@ -266,13 +266,15 @@ a:hover > .pilllink span, .pilllink:hover span { transform: translateX(5px); }
 .card__copy strong, .theme-light .card__copy strong { color: #fff; }
 .card .pilllink, .theme-light .card .pilllink { color: #fff; }
 .card__num { font-size: 12px; font-weight: 600; letter-spacing: .14em; color: rgba(245, 242, 249, .82) !important; margin: 0 0 14px !important; }
-.card__media { margin: 0; aspect-ratio: 16 / 10; overflow: hidden; }
+.card__media { position: relative; margin: 0; aspect-ratio: 16 / 10; overflow: hidden; }
+.tag-ai { position: absolute; right: 12px; bottom: 12px; padding: 4px 10px; border-radius: 99px; background: rgba(10, 8, 16, .72); color: #F5F2F9; font-size: 11px; font-weight: 500; letter-spacing: .04em; backdrop-filter: blur(6px); pointer-events: none; }
 .card__media img { width: 100%; height: 100%; object-fit: cover; transform: scale(1.06); transition: transform 1.4s var(--ease); }
 .card:hover .card__media img { transform: scale(1.12); }
 @media (min-width: 900px) {
   .card__in { grid-template-columns: 1fr 1.05fr; min-height: 440px; }
   .card__copy { padding: 48px; display: flex; flex-direction: column; justify-content: flex-end; }
-  .card__media { aspect-ratio: auto; }
+  .card__media { aspect-ratio: auto; min-height: 100%; }
+  .card__media img { position: absolute; inset: 0; }
 }
 
 /* ---------- zonas térmicas ---------- */
@@ -332,7 +334,7 @@ a:hover > .pilllink span, .pilllink:hover span { transform: translateX(5px); }
 .people { z-index: 5; }
 .people__rail { display: flex; gap: 14px; overflow-x: auto; scroll-snap-type: x mandatory; padding: 50px max(16px, (100% - 1240px) / 2) 10px; scrollbar-width: none; cursor: grab; }
 .people__rail::-webkit-scrollbar { display: none; }
-.person { flex: none; width: min(68vw, 360px); margin: 0; scroll-snap-align: start; border-radius: var(--r); overflow: hidden; aspect-ratio: 4 / 5; background: var(--paper-2); }
+.person { position: relative; flex: none; width: min(68vw, 360px); margin: 0; scroll-snap-align: start; border-radius: var(--r); overflow: hidden; aspect-ratio: 4 / 5; background: var(--paper-2); }
 .person:nth-child(2n) { transform: translateY(36px); }
 .person__img { height: 100%; }
 .person__img img { width: 118%; max-width: none; height: 100%; object-fit: cover; transform: translateX(calc(-8% + var(--px, 0) * 1%)); }

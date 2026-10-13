@@ -8,79 +8,42 @@
       1536
     ],
     "w": 1536,
-    "h": 922,
-    "alt": ""
-  },
-  "chauffeur": {
-    "base": "assets/img/chauffeur",
-    "widths": [
-      360
-    ],
-    "w": 360,
-    "h": 460,
+    "h": 857,
     "alt": ""
   },
   "cour": {
     "base": "assets/img/cour",
     "widths": [
-      360
+      560,
+      840,
+      1122
     ],
-    "w": 360,
-    "h": 460,
+    "w": 1122,
+    "h": 1503,
     "alt": ""
   },
   "crepuscule": {
     "base": "assets/img/crepuscule",
     "widths": [
-      640
+      640,
+      960,
+      1280,
+      1536
     ],
-    "w": 640,
-    "h": 480,
-    "alt": ""
-  },
-  "equipe-1": {
-    "base": "assets/img/equipe-1",
-    "widths": [
-      640
-    ],
-    "w": 640,
-    "h": 640,
-    "alt": ""
-  },
-  "equipe-2": {
-    "base": "assets/img/equipe-2",
-    "widths": [
-      640
-    ],
-    "w": 640,
-    "h": 640,
-    "alt": ""
-  },
-  "equipe-3": {
-    "base": "assets/img/equipe-3",
-    "widths": [
-      640
-    ],
-    "w": 640,
-    "h": 640,
-    "alt": ""
-  },
-  "equipe-4": {
-    "base": "assets/img/equipe-4",
-    "widths": [
-      640
-    ],
-    "w": 640,
-    "h": 640,
+    "w": 1536,
+    "h": 1147,
     "alt": ""
   },
   "mecanique": {
     "base": "assets/img/mecanique",
     "widths": [
-      640
+      640,
+      960,
+      1280,
+      1536
     ],
-    "w": 640,
-    "h": 640,
+    "w": 1536,
+    "h": 1536,
     "alt": ""
   },
   "remorque": {
@@ -92,7 +55,7 @@
       1536
     ],
     "w": 1536,
-    "h": 1152,
+    "h": 1147,
     "alt": ""
   },
   "route": {
@@ -104,7 +67,7 @@
       1536
     ],
     "w": 1536,
-    "h": 1025,
+    "h": 1030,
     "alt": ""
   }
 }
